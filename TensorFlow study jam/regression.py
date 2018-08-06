@@ -3,7 +3,6 @@ Linear Regression model using tensorflow estimators library. Using the same code
 """
 
 
-
 import pandas as pd #importing pandas for processing dataset.
 import numpy as np # importing numpy for array processing.
 import tensorflow as tf # importing tensorflow
