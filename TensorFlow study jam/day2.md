@@ -53,3 +53,9 @@ In **Sparse representation** only nonzero values are stored. In sparse represent
 - Handling extreme outliers.
 - Binning
 - Scrubbing
+
+## Faeture Crossing
+
+A feature cross is a synthetic feature that encodes nonlinearity in the feature space by multiplying two or more input features together. 
+
+## Classification
