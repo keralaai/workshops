@@ -47,3 +47,9 @@ In **Sparse representation** only nonzero values are stored. In sparse represent
 - Prefer clear and obvious meanings (Age of Thor).
 - Don't mix "magic" values with actual data (the case of hawkeye).
 - Account for upstream instability (different names of powers, for eg: "get help").
+
+## Data Cleaning
+- Scaling.
+- Handling extreme outliers.
+- Binning
+- Scrubbing
