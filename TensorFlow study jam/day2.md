@@ -7,14 +7,14 @@
 
 Consider this dataset,
 
-| Super hero     | PowerRange | Capabilities                     | Snapified|
-|----------------|------------|----------------------------------|----------|        
-| Iron man       | 95         | Flying, weapon making, tech.     |     No   |
-| Dr. Strange    | 98         | Teleporting,weapon making, magic |     Yes  |
-| Spiderman      | 94         | Webbing, spidersense,strength    |     Yes  |
-| Captain America| 95         | Strength, fighting skills,fast   |     No   |
-| Black Panther  | 94         | Rich, fighting skills, tech,fast |     Yes  |
-| Bruce Banner   | 50         | (in)ability to turn into hulk    |     No   |
+| Super hero     | PowerRange | Capabilities                     | Avengers cofounder|Snapified|
+|----------------|------------|----------------------------------|-------------------|---------|        
+| Iron man       | 95         | Flying, weapon making, tech.     |     Yes           |    No   |
+| Dr. Strange    | 98         | Teleporting,weapon making, magic |     No            |    Yes  |
+| Spiderman      | 94         | Webbing, spidersense,strength    |     No            |    Yes  |
+| Captain America| 95         | Strength, fighting skills,fast   |     Yes           |    No   |  
+| Black Panther  | 94         | Rich, fighting skills, tech,fast |     No            |    Yes  |
+| Bruce Banner   | 50         | (in)ability to turn into hulk    |     Yes           |    No   |
 
 Many machine learning models must represent the features as real-numbered vectors since the feature values must be multiplied by the model weights.
 
@@ -28,13 +28,13 @@ Many machine learning models must represent the features as real-numbered vector
 One hot encoding for ironman : [0,0,1,0,0,1,0,0,1,0,0,1]
 
 
-| Super hero     | PowerRange | Capabilities                     | Snapified|
-|----------------|------------|----------------------------------|----------|        
-| Iron man       | 95.0       | [0,0,1,0,0,1,0,0,1,0,0,1]        |     No   |
-| Dr. Strange    | 98.0       | [0,0,0,0,1,0,0,0,0,1,0,1]        |     Yes  |
-| Spiderman      | 94.0       | [0,0,0,0,0,0,1,1,0,0,1,0]        |     Yes  |
-| Captain America| 95.0       | [1,1,0,0,0,0,1,0,0,0,1,0]        |     No   |
-| Black Panther  | 94.0       | [1,0,1,0,0,1,0,0,1,0,0,0]        |     Yes  |
-| Bruce Banner   | 50 .0      | [0,0,0,1,0,0,0,0,0,0,0,0]        |     No   |
+| Super hero     | PowerRange | Capabilities                     | Avengers cofounder|Snapified|
+|----------------|------------|----------------------------------|-------------------|---------|        
+| Iron man       | 95.0       | [0,0,1,0,0,1,0,0,1,0,0,1]        |     1             |   0     |
+| Dr. Strange    | 98.0       | [0,0,0,0,1,0,0,0,0,1,0,1]        |     0             |   1     |
+| Spiderman      | 94.0       | [0,0,0,0,0,0,1,1,0,0,1,0]        |     0             |   1     |
+| Captain America| 95.0       | [1,1,0,0,0,0,1,0,0,0,1,0]        |     1             |   0     |
+| Black Panther  | 94.0       | [1,0,1,0,0,1,0,0,1,0,0,0]        |     0             |   1     |
+| Bruce Banner   | 50 .0      | [0,0,0,1,0,0,0,0,0,0,0,0]        |     1             |   0     |
 
 In **Sparse representation** only nonzero values are stored. In sparse representations, an independent model weight is still learned for each feature value, as described above.
