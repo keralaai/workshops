@@ -59,3 +59,29 @@ In **Sparse representation** only nonzero values are stored. In sparse represent
 A feature cross is a synthetic feature that encodes nonlinearity in the feature space by multiplying two or more input features together. 
 
 ## Classification
+
+A logistic regression model that returns 0.9995 for a particular email message is predicting that it is very likely to be spam. Conversely, another email message with a prediction score of 0.0003 on that same logistic regression model is very likely not spam.
+
+**True positive** is an outcome where the model correctly predicts the positive class.
+**True negative** is an outcome where the model correctly predicts the negative class.
+
+**False positive** is an outcome where the model incorrectly predicts the positive class. 
+**False negative** is an outcome where the model incorrectly predicts the negative class.
+
+### Accuracy
+```
+Accuracy = Correct predictions/total predictions
+         = (TP+TN)/(TP+TN+FP+FN)
+```
+### Precision
+```
+precision = TP/(TP+FP)
+
+```
+
+### Recall
+
+```
+Recall = TP/(TP+FN)
+```
+
