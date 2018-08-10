@@ -54,9 +54,19 @@ In **Sparse representation** only nonzero values are stored. In sparse represent
 - Binning
 - Scrubbing
 
-## Faeture Crossing
+## Feature Crossing
 
 A feature cross is a synthetic feature that encodes nonlinearity in the feature space by multiplying two or more input features together.
+
+### Validation Set
+
+* Till now,we talked about the test set and the training set
+* However,there is one more set,called the Validation set 
+* Earlier,we talked about test set,which we use to test how well the model generalises to new examples
+* But,it is also important that we don't use the test set to fine tune our Hyperparameters
+* Therefore,we need a new set,this is the validation set.It is always constructed from the training set,by splitting it into two
+* We use the validation set to estimate the generalisation error and update our hyperparameters accordingly 
+
 
 ## Regularisation
 
