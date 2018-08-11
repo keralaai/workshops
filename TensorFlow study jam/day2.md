@@ -1,5 +1,10 @@
 # Welcome to tensorflow study Jam: day 2 !
 
+1. Representation
+2. Data Cleaning
+3. Feature cross
+4. Regularisation
+5. Classification
 
 ## Representation
 
@@ -133,3 +138,4 @@ precision = TP/(TP+FP)
 Recall = TP/(TP+FN)
 ```
 
+https://goo.gl/zwGRuX
