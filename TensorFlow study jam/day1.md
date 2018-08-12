@@ -1,7 +1,10 @@
 # Welcome to Tensorflow Study Jam : Day 1
 <p align="center">
-  <img src="https://scontent.fcok1-1.fna.fbcdn.net/v/t1.0-9/37838208_1074737562684398_3500528767216910336_n.png?_nc_cat=0&oh=9069a483cf036ee6b508d92e5edc12b8&oe=5C0325F3" alt="Keralaai tf study jam"/>
+  <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/IMG-20180812-WA0001.jpg" height="500" width="500"alt="Keralaai tf study jam"/>
 </p>
+
+
+
 
 1. Intro to machine learning
 2. Reducing Loss
