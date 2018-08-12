@@ -138,4 +138,6 @@ precision = TP/(TP+FP)
 Recall = TP/(TP+FN)
 ```
 
-https://goo.gl/zwGRuX
+## Task
+
+1. Go to the mlcc classification programming exercise and implement it for the dataset we used in the first session.
