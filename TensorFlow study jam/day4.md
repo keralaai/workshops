@@ -29,6 +29,8 @@ Embeddings is the solution for above mentioned problems.
 
 You can solve the core problems of sparse input data by mapping your high-dimensional data into a lower-dimensional space.
 
+![](http://159.89.224.205/wp-content/uploads/2016/06/tumblr_inline_o8tinsmw081u37g00_540.png)
+
 While we want enough dimensions to encode rich semantic relations, we also want an embedding space that is small enough to allow us to train our system more quickly. A useful embedding may be on the order of hundreds of dimensions. This is likely several orders of magnitude smaller than the size of your vocabulary for a natural language task.
 
 An **embedding** is a matrix in which each column is the vector that corresponds to an item in your vocabulary. To get the dense vector for a single vocabulary item, you retrieve the column corresponding to that item.
